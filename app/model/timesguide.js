@@ -47,7 +47,7 @@ module.exports = app => {
         dateRang() {
           const startDate = moment(this.startDate).format('YYYY.MM.DD')
           const endDate = moment(this.endDate).format('MM.DD')
-          return startDate + '-' + endDate
+          return startDate + ' - ' + endDate
         },
         price() {
           const days = moment().diff(moment(this.startDate), 'days')
