@@ -1,5 +1,6 @@
 # 17disney-timesguide-service
 
+
 ```shell
 docker stop 17disney-timesguide-service \
 && docker rm 17disney-timesguide-service \
